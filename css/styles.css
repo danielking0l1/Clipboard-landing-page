@@ -1,0 +1,197 @@
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 1.125rem;
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  color: hsl(210, 10%, 33%);
+}
+
+h2 {
+  color: hsl(210, 10%, 33%);
+  font-size: 200%;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+}
+
+a {
+  text-decoration: none;
+  color: hsl(201, 11%, 66%);
+}
+
+a:hover {
+  color: hsl(210, 10%, 33%);
+}
+
+.header {
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  padding: 120px 0 0;
+}
+
+.top-clipboard-logo {
+  padding-bottom: 20px;
+}
+
+.header-text {
+  font-size: 250%;
+  margin-bottom: 20px;
+}
+
+.header-paragraph {
+  font-size: 120%;
+  margin: auto;
+  width: 50%;
+}
+
+.button-box {
+  margin: 50px 0 150px;
+}
+
+.main-paragraph {
+  font-size: 105%;
+  width: 50%;
+  margin: auto;
+  line-height: 1.5;
+}
+
+/*-------------------------------FIRST_TIER------------------------------------ */
+
+.computer-img {
+  float: left;
+  object-position: -30px;
+}
+
+.first-tier {
+  margin: 80px 0;
+}
+
+.first-tier-box {
+  display: inline-block;
+  text-align: left;
+  margin: 50px 0;
+  width: 27%;
+}
+
+.first-tier-text {
+  margin: 0;
+}
+
+.first-tier-paragraph {
+  line-height: 2;
+  margin: 5px;
+}
+/*------------------------------------------------------------------- */
+
+.device-img {
+  margin: 100px auto 20px;
+}
+
+/*-------------------------------SECOND_TIER------------------------------------ */
+.second-tier {
+  margin: 80px 0;
+}
+
+.tool-box {
+  display: inline-block;
+  margin: 10px;
+  width: 27%;
+  vertical-align: top;
+}
+
+.tool-text {
+  line-height: 1.8;
+}
+
+.tool-logo {
+  height: 52px;
+  width: 58px;
+}
+
+/*------------------------------------------------------------------- */
+
+.company-logo-body {
+  margin: 150px 0;
+}
+
+.company-logo {
+  vertical-align: middle;
+  margin: 0 50px;
+}
+
+/*-------------------------------BUTTON------------------------------------ */
+.button {
+  box-shadow: 0 10px 16px -12px #3dc21b;
+  background: linear-gradient(to bottom, #1d7a6e 5%, #23b9a5 100%);
+  background-color: #1d7a6e;
+  border-radius: 42px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 17px 38px;
+  text-decoration: none;
+  text-shadow: 0 -2px 0 #2f6627;
+  margin: 0 10px ;
+}
+
+.button:hover {
+  background: linear-gradient(to bottom, #23b9a5 5%, #1d7a6e 100%);
+  background-color: #23b9a5;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+/*------------------------------FOOTER------------------------------------ */
+
+footer {
+  background-color: #f7f6fb;
+  height: 150px
+}
+
+.footer-img {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  left: 150px;
+  top: 3690px;
+}
+
+.footer-link-box {
+  display: inline-block;
+  width: 590px;
+  height: 50px;
+  position: absolute;
+  top: 3690px;
+  left: 350px;
+}
+
+.footer-link {
+  margin: 10px 70px;
+}
+
+.social-link-box {
+  display: inline-block;
+  position: absolute;
+  right: 150px;
+  top: 3710px;
+}
+
+.social-link {
+  margin: 0 10px;
+  vertical-align: middle;
+}
